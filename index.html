@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جود للإلكترونيات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            background-color: #f3f3f3; /* لون خلفية رمادي */
+            color: #333;
+        }
+        header {ٍs
+            background-color: #6c757d; /* لون رمادي */
+            color: white;ٍ
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #5a6268;             text-align: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            text-align: center;
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            width: 280px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h2 {
+            font-size: 1.3rem;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #6c757d; /* لون رمادي */
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- رأس الصفحة واسم المتجر -->
+    <header>
+        <h1>مرحبًا بكم في متجر جود للإلكترونيات</h1>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+
+    <!-- قسم التعريف بالمتجر -->
+    <section id="home" class="intro">
+        <h2>تعريف بالمتجر</h2>       
+ <p>متجر جود للإلكترونيات هو أفضل متجر لبيع الأجهزة الحديثة حيث نقدم أحدث الإصدارات من الهواتف والأجهزة اللوحية بأفضل الأسعار&nbsp;&nbsp;
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+
+
+
+    </section>
+
+    <!-- قائمة المنتجات -->
+    <section id="products" class="products">
+<div class="product">
+            <img src="C:\Users\razan\OneDrive\سطح المكتب\صوره سماعه.jpg"سماعة ابل ">
+            <h2>سماعة ابل </h2>
+            <p>  
+ • محرك ديناميكي بتصميم ابل يمنحك صوتاً عالي الدقة
+ • خاصية إلغاء الضوضاء النشطة تحجب الضوضاء الخارجية، حتى تتمكن من غمر نفسك في الموسيقى
+ • مع وضع الشفافية للسماع والاتصال مع العالم من حولك
+ • يوفر الصوت المكاني مع تتبع الرأس الديناميكي صوتًا يشبه المسرح يحيط بك
+ • يجمع الصوت المحوسب بين التصميم الصوتي المخصص وشريحة ابل H1 والبرنامج للحصول على تجارب استماع رائعة </p>
+            <p>السعر: 1600$</p>
+            <button onclick="addToCart('سماعة  2020', 1500)">أضف إلى السلة</button>
+
+        </div>
+
+        <div class="product">
+            <img src= "C:\Users\razan\OneDrive\سطح المكتب\jood shop\images\ايباد.jpg"alt="ايباد اير 2022">
+            <h2>ايباد اير 2022</h2>
+            <p>• شاشة ريتنا ليكويد مقاس 11 إنش مع ألوان P3 وتقنيات حديثة.<br>
+               • شريحة M2 لأداء مذهل وفعالية في المهام الصعبة.<br>
+               • بطارية تدوم طوال اليوم، سعة تخزين تصل لـ 1TB.</p>
+            <p>السعر: <strong>2900$</strong></p>
+            <button onclick="addToCart('ايباد اير 2022', 2900)">أضف إلى السلة</button>
+        </div>
+
+        <div class="product">
+            <img src= "C:\Users\razan\OneDrive\سطح المكتب\jood shop\images\ايفون.jpg"alt="ايفون 16">
+            <h2>ايفون 16</h2>
+            <p>• تصميم من التيتانيوم مع شاشة ريتنا XDR 6.3 إنش.<br>
+               • كاميرا 48 ميجابكسل مع زووم 5x ومزايا تصوير متقدمة.<br>
+               • وحدة تحكم مدمجة لتصوير احترافي وفوري.</p>
+            <p>السعر: <strong>5999$</strong></p>
+<button onclick="addToCart('ايفون 16', 5999)">أضف إلى السلة</button>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact" class="intro">
+        <h2>اتصل بنا</h2>
+        <p>يمكنك التواصل معنا عبر الرقم التالي: <strong>٠٥٥٦٧٦٦٧٧٦٨٦٧</strong></p>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <p>&copy; 2024 متجر جود للإلكترونيات. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- سكربت جافاسكربت -->
+    <script>
+        function addToCart(productName, price) {
+            alert(`تم إضافة "${productName}" إلى السلة بسعر ${price}$.`);
+        }
+    </script>
+
+</body>
+</html>
